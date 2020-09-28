@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <div className="contact">
-            <h5>Let's Connect!</h5>
+            <h4>Let's Connect!</h4>
                 <div className="social-media">
                     <a className="github" href="https://github.com/sgbondoc">
                         <i class="fa fa-github" aria-hidden="true"></i>

@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-    <NavBar />
+    {/* <NavBar /> */}
     <Header />
     {/* <SmoothScroll /> */}
     <About />
