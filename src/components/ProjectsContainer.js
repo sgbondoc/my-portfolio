@@ -8,11 +8,21 @@ class ProjectsContainer extends Component {
     state = {
       projects: [
         {
+            id: 4,
+            title: "Corgi Connect",
+            imgsrc: "https://i.imgur.com/XuBFerkm.png",
+            tech: "MERN + Materialize",
+            info: "Web browser game utilizing core fundamentals in JS, HTML, and CSS with a focus on object-oriented programming and DOM manipulation.",
+            githubLink: "https://github.com/sgbondoc/SEI-629-Project-One-Game",
+            // appLink:
+        },  
+        {
           id: 3,
           title: "Corgi Connect",
           imgsrc: "https://i.imgur.com/XuBFerkm.png",
           tech: "MERN + Materialize",
-          githubLink: "https://github.com/sgbondoc/SEI-629-Project-One-Game" ,
+          info: "Web browser game utilizing core fundamentals in JS, HTML, and CSS with a focus on object-oriented programming and DOM manipulation.",
+          githubLink: "https://github.com/sgbondoc/SEI-629-Project-One-Game",
           // appLink:
         },
         {
@@ -20,6 +30,7 @@ class ProjectsContainer extends Component {
           title: "Show Me the Boba",
           imgsrc: "https://i.imgur.com/XuBFerkm.png",
           tech: "MERN + reactstrap",
+          info: "Web browser game utilizing core fundamentals in JS, HTML, and CSS with a focus on object-oriented programming and DOM manipulation.",
           githubLink: "https://github.com/sgbondoc/SEI-629-Project-One-Game",
           // appLink:
         },
@@ -28,6 +39,7 @@ class ProjectsContainer extends Component {
           title: "Fast Food Memory",
           imgsrc: "https://i.imgur.com/XuBFerkm.png",
           tech: "Javascript + HTML + CSS",
+          info: "Web browser game utilizing core fundamentals in JS, HTML, and CSS with a focus on object-oriented programming and DOM manipulation.",
           githubLink: "https://github.com/sgbondoc/SEI-629-Project-One-Game",
           // appLink:
         },
@@ -44,8 +56,8 @@ class ProjectsContainer extends Component {
                             <CardBody>
                                 <CardTitle>{ project.title }</CardTitle>
                                 <CardSubtitle>{ project.tech }</CardSubtitle>
-                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                <Button href={ project.githubLink }>Check it out!</Button>
+                                <CardText>{ project.info }</CardText>
+                                <Button href={ project.githubLink }>View Github</Button>
                             </CardBody>
                         </Card>
                     </div>    
