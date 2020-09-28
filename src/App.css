@@ -70,6 +70,18 @@ h6 {
     height: 30%;
 }
 
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    padding: 15px;
+}
+
 /* RESUME */
 
 .resume {
